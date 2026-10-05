@@ -1,0 +1,214 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+h2{
+    text-align:center;
+    font-family:arial;
+}
+td, th {
+  border: 1px solid #151617;
+  text-align: left;
+  padding: 8px;
+}
+.atas {
+    background-color: #1b41d8;
+    color: white;
+}
+.Status {
+    color: white;
+    background-color: rgb(199, 198, 198);
+    text-align: center;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 50px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 45;
+    margin-bottom: 15px;
+}
+.tabel-utama {
+    width: 700px;
+    margin: 0 auto 40px auto;
+    border-collapse: collapse;
+}
+.tabel-utama th {
+    background-color: #1b41d8;
+    color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.tabel-utama td {
+    border: 1px solid #ddd;
+    padding: 9px;
+    font-size: 14px;
+}
+
+/* Kolom kategori */
+.kategori {
+    width: 190px;
+}
+/* Kolom atribut */
+.atribut {
+    width: 220px;
+}
+/* Kolom hasil siswa */
+.hasil {
+    width: 290px;
+}
+/* MERGE CELL */
+.merge {
+    height: 145px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 16px !important;
+    border: 3px solid #b52b27 !important;
+}
+.merge span {
+    color: #b52b27;
+    font-size: 12px;
+}
+/* DATA FISIK */
+.data-fisik {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/* SPLIT CELL */
+.split-box {
+    border: 3px dashed #159447;
+    padding: 8px;
+    color: #159447;
+    font-weight: bold;
+}
+.split-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+.split-box td {
+    border: 1px solid #159447;
+    padding: 6px;
+    color: #333;
+    font-weight: normal;
+}
+/* KETERANGAN */
+.keterangan {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px !important;
+    background-color: #ddd;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.tabel-utama {
+    width: 680px;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+/* HEADER */
+.tabel-utama th {
+    background-color: #1b41d8;
+    color: white;
+    border: 1px solid #ddd;
+    padding: 10px 8px;
+    text-align: center;
+    font-size: 14px;
+}
+/* SEMUA CELL */
+.tabel-utama td {
+    border: 1px solid #ddd;
+    padding: 9px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+/* LEBAR KOLOM */
+.kolom1 {
+    width: 18%;
+}
+.kolom2 {
+    width: 25%;
+}
+.kolom3 {
+    width: 25%;
+}
+.kolom4 {
+    width: 32%;
+}
+/* MERGE DATA SISWA */
+.merge {
+    height: 125px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #b52b27 !important;
+}
+.merge .judul {
+    font-size: 15px;
+}
+.merge .keterangan {
+    color: #b52b27;
+    font-size: 10px;
+    }
+/* MERGE KONTAK */
+.kontak {
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #b52b27 !important;
+}
+.kontak span {
+    color: #b52b27;
+    font-size: 10px;
+}
+/* SPLIT CELL */
+.split {
+    border: 3px dashed #159447;
+    padding: 7px;
+    color: #159447;
+    font-weight: bold;
+}
+.split table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+.split table td {
+    border: 1px solid #159447;
+    padding: 5px;
+    color: #222;
+    font-weight: normal;
+    background-color: white;
+}
+/* KETERANGAN BAWAH */
+.catatan {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px !important;
+}
+.merah {
+    color: #b52b27;
+}
+.hijau {
+    color: #159447;
+}
